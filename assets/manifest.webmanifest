@@ -1,0 +1,8 @@
+{
+    "name": "UEAP",
+    "short_name": "ueap",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#afa",
+    "description": "None description here"
+}

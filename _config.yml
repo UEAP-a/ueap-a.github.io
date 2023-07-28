@@ -1,0 +1,8 @@
+name: "UEAP"
+title: "UEAP"
+
+include: [".htaccess"]
+exclude: ["priv"]
+keep_files: [".git",".svn"]
+
+timezone: Asia/Tokyo
