@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Color+Emoji&family=Noto+Emoji:wght@300;400;500;600;700&family=Noto+Sans+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&family=Noto+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
+    font-family: 'Noto Color Emoji', 'Noto Emoji', 'Noto Sans', 'Noto Sans Display', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Mono', 'Noto Serif', 'Noto Serif Display', 'Noto Serif JP', sans-serif, monospace, serif;
     margin: 0;
     background: rgb(20,20,20);
     color: white;
@@ -17,7 +18,19 @@ body {
             }
         }
     }
-    .font {
-        font-family: 'Noto Color Emoji', 'Noto Emoji', 'Noto Sans', 'Noto Sans Display', 'Noto Sans JP', 'Noto Sans KR', 'Noto Sans Mono', 'Noto Serif', 'Noto Serif Display', 'Noto Serif JP', sans-serif, monospace, serif;
+    .bold {
+        font-weight: bold;
+    }
+    .bolder {
+        font-weight: bolder;
+    }
+    .lighter {
+        font-weight: lighter;
+    }
+    .italic {
+        font-style: italic;
+    }
+    .strike {
+        text-decoration: line-through;
     }
 }
