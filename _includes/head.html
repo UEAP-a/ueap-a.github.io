@@ -2,8 +2,8 @@
 <title>{{ page.title - site.title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="U-XA-Compatible" content="IE=edge" />
-<link rel="stylesheet" href="../assets/style.css" />
-<link rel="manifest" href="../assets/manifest.webmanifest" />
+<link rel="stylesheet" href="{{ ../assets/style.css | absolute_url }}" />
+<link rel="manifest" href="{{ ../assets/manifest.webmanifest | absolute_url }}" />
 <link rel="canonical" href="https://ueap-a.github.io" />
 <link rel="author" href="{{ page.author | default: site.author }}" />
 <link rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" />
@@ -18,7 +18,7 @@
         "ueap_item": {
             "item_metatitle": "{{ page.metatitle | default: "No meta title" }}",
             "item_number": "{{ page.itemnum | default: "null" }}",
-            "item_class": "{{ page.class | default: "null" }}"
+            "item_class": "{{ page.classid | default: "null" }}"
         }
     }
 </script>

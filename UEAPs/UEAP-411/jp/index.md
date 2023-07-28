@@ -1,7 +1,7 @@
 ---
 layout: ueaps-jp
 itemnum: "411"
-class: "Euclid"
+classid: "Euclid"
 ---
 
 # UEAP-411 (pre)
